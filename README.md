@@ -1,1 +1,1 @@
-# Задачи с курса IT-Incubator: "Frontend с нуля"
+# Задачи на Codewars с курса IT-Incubator: "Frontend с нуля"
