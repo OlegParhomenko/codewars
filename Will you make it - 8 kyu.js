@@ -4,31 +4,31 @@
 
 // Функция должна возвращать значение, trueесли это возможно, и false наоборот.
 
-Skills: 
+// Skills: Mathematics, Fundamentals
 
 // Решение с помощью if
 
-// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-//     if((mpg * fuelLeft) >= distanceToPump){
-//         return true
-//     } else {
-//         return false
-//     }
-//   };
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    if((mpg * fuelLeft) >= distanceToPump){
+        return true
+    } else {
+        return false
+    }
+  };
 
   // Решение с помощью тернарного оператора
 
-//   const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-//     return mpg * fuelLeft >= distanceToPump? true: false
-//   };
+  const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return mpg * fuelLeft >= distanceToPump? true: false
+  };
 
     // Решение с помощью switch/case
 
-    // const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    //     switch(true){
-    //         case((mpg * fuelLeft) >= distanceToPump):
-    //             return true;
-    //         default:
-    //              return false
-    //     }
-    //   };
+    const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+        switch(true){
+            case((mpg * fuelLeft) >= distanceToPump):
+                return true;
+            default:
+                 return false
+        }
+      };
