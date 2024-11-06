@@ -12,13 +12,14 @@
 // Решение через if
 
 function areYouPlayingBanjo(name) {
-    if(name[0] === "R" || name[0] === "r"){
-        return name + " plays banjo" 
-    } else {
+    if(name[0] === "R" || name[0] === "r"){         //Проверяем на заданное условие
+        return name + " plays banjo"                //Если условие проходит возвращаем результат
+    } else {                                        //В противно случае возвращаем другой результат
         return name + " does not play banjo"
     }
 
 }
+
 //   Решение через тернарный оператор
 
 function areYouPlayingBanjo(name) {
